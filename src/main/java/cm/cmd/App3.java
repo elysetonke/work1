@@ -8,6 +8,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 
 public class App3 {
 
+    // Ici commence ma 3ème application
     public static void main(String[] args) throws JsonProcessingException {
         BankAccountService bankAccountService = new BankAccountServiceImpl();
         bankAccountService.addRandomData(20);
